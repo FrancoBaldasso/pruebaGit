@@ -11,8 +11,8 @@ namespace ImportantStuff
 	internal class Program
     {
 	    private static readonly string[] Scopes = { SheetsService.Scope.Spreadsheets };
-	    private const string ApplicationName = "Current Legislators";
-	    private const string SpreadsheetId = "1P_0tngt7o02xgXr9T-wSaVXz-_OH0ZekYN8RLoWLnA4";
+	    private const string ApplicationName = "Current Legislators";		//no referencia nada especifico
+	    private const string SpreadsheetId = "1P_0tngt7o02xgXr9T-wSaVXz-_OH0ZekYN8RLoWLnA4";		
 	    private const string Sheet = "legislators-current";
 	    private static SheetsService _service;
 
